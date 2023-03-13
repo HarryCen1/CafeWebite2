@@ -1,0 +1,200 @@
+.Contact-Body-Box {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    letter-spacing: 0.14rem;
+}
+
+.Contact-Grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: auto;
+    height: 100%;
+}
+
+
+.Contact-Left-Box {
+    text-align: left;
+    background-color: #FF7C00;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 50px;
+    line-height: 2;
+    
+}
+
+.Contact-Left-Box h2 {
+    color: white;
+    line-height: 4;
+    font-size: 30px;
+}
+
+.Contact-Left-Box p {
+    color: white;
+    line-height: 2.4;
+}
+
+.Contact-Info i {
+    color: red;
+    line-height: 4;
+
+}
+
+/**Hover-Icone-Yellow-Effect**/ 
+
+.Social-Media-Icon {
+    display: flex;
+}
+
+.Social-Media-Icon li {
+    margin: 10px;
+}
+
+.Social-Media-Icon,
+.Social-Media-Icon li {
+    list-style: none;
+    margin: 10 15px;
+}
+
+.Social-Media-Icon ul,
+.Social-Media-Icon li,
+.Social-Media-Icon a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+
+.Social-Media-Icon ul::before,
+.Social-Media-Icon li::before,
+.Social-Media-Icon a::before {
+    content: '';
+    position: absolute;  
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.Social-Media-Icon ul:hover,
+.Social-Media-Icon li:hover,
+.Social-Media-Icon a:hover {
+    color: #ffee10;
+    text-shadow: 0 0 15px #ffee10;
+    box-shadow: 0 0 15px #ffee10;    
+}
+
+.Social-Media-Icon ul:hover::before,
+.Social-Media-Icon li:hover::before,
+.Social-Media-Icon a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;    
+
+}
+
+.Contact-Right-Flex-Box {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+
+.Contact-Small-Grid-One {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
+}
+
+.Contact-Right-Flex-Box {
+    width: 100%;
+    height: auto;
+    color: #575757;
+}
+
+.Contact-Right-Flex-Box form {
+    padding-left: 20px;
+    padding-top: 20px; 
+    margin: 20px;
+}
+
+.Contact-Small-Grid-One input{
+    display: flex;
+    width: 90%;
+    padding: 10px 4px 4px 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    resize: none;
+}
+
+
+
+.Contact-Small-Flex-Two label,
+.Contact-Small-Flex-Two input  {
+    margin: 10px;
+    color: red;
+}
+
+.Contact-Small-Flex-Two h3,
+.Message-textarea h3 {
+    font-size: 35px;
+}
+
+.Message-textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.Message-textarea textarea {
+    width: 70%;
+    padding: 10px;
+}
+
+
+.Message-textarea a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 24px;
+    background-color: #FF7C00;
+    word-break:break-all;  
+}
+
+.Message-textarea a:hover {
+    color: #ffee10;
+    text-shadow: 0 0 15px #ffee10;
+    box-shadow: 0 0 15px #ffee10;   
+    background-color: #333; 
+    transition: 0.5s;
+}
+
