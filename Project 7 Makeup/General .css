@@ -7,9 +7,8 @@ p {
 
 }
 
-button {
-    font-family:Oswald ;
-
+.Hero-Image {
+    overflow: hidden;
 }
 
 /*Social-Media-Footer*/
